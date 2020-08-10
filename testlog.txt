@@ -1,0 +1,500 @@
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: d
+
+
+Enter an ID to delete an entry: 5
+Entry not found in inventory!
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+5, car, horns
+2, big, trucks
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: s
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: l
+
+Data successfully loaded in memory
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+5, car, horns
+2, big, trucks
+5, car, horns
+2, big, trucks
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: x
+
+
+a
+Traceback (most recent call last):
+
+  File "<ipython-input-7-3f786850e387>", line 1, in <module>
+    a
+
+NameError: name 'a' is not defined
+
+
+runfile('C:/_FDPrograming/untitled0.py', wdir='C:/_FDPrograming')
+The Magic CD Inventory
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: l
+
+Data successfully loaded in memory
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 5
+
+Enter the CD's Title: big
+
+Enter the Artist's Name: trucks
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 5
+
+Enter the CD's Title: car
+
+Enter the Artist's Name: horns
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 6
+
+Enter the CD's Title: cow
+
+Enter the Artist's Name: bells
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 5
+
+Enter the CD's Title: car
+
+Enter the Artist's Name: horns
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 5
+
+Enter the CD's Title: car
+
+Enter the Artist's Name: horns
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 5
+
+Enter the CD's Title: 
+
+Enter the Artist's Name: 
+Cannot leave CD Title or Artist Name field blank!
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 
+Invalid input. You must enter an integer value
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 
+Invalid input. You must enter an integer value
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: ght
+
+Please choose either l, a, i, d, s or x!
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: hgf
+
+Please choose either l, a, i, d, s or x!
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 
+Invalid input. You must enter an integer value
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: d
+
+
+Enter an ID to delete an entry: 1
+Entry not found in inventory!
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: d
+
+
+Enter an ID to delete an entry: 5
+Entry not found in inventory!
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: d
+
+
+Enter an ID to delete an entry: car
+Invalid input. You must enter an integer value
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: s
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: s
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: s
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: l
+
+Data successfully loaded in memory
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+5, car, horns
+2, big, trucks
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: a
+
+
+Enter an ID: 5
+
+Enter the CD's Title: car
+
+Enter the Artist's Name: horns
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: i
+
+ID, CD Title, Artist
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+5, car, horns
+2, big, trucks
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+2, big, trucks
+5, big, trucks
+5, car, horns
+6, cow, bells
+5, car, horns
+5, car, horns
+5, car, horns
+
+[l] load Inventory from file
+[a] Add CD
+[i] Display Current Inventory
+[d] delete CD from Inventory
+[s] Save Inventory to file
+[x] exit
+
+l, a, i, d, s or x: 
