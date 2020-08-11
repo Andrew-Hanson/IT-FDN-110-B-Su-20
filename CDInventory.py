@@ -17,6 +17,8 @@
 #1)change the display menu so it prints before or after other information
 #printed by the program, contextually
 #2)find a use for exception handling
+#3)check for valid entries
+#4)allow deleting entries from the file
 
 #------------------------------------------#
 
@@ -64,6 +66,7 @@ while True:
         lstRow = {'ID':strID,'title':strTitle,'artist':strArtist}
         #chose to keep name lstRow for dictionary to avoid multiple replacements
         lstTbl.append(lstRow)
+        #display current entries in memory efter each entry is added
         if lstTbl != []: #check table is not empty
             print('ID, CD Title, Artist') #header for display
             for row in lstTbl: #print the values of each dictionary seperated by a comma and space
