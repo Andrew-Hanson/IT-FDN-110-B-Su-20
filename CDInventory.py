@@ -10,6 +10,8 @@
 # Ahanson, 2020-aug-05, No CD Entries!
 # AHanson, 2020-aug-08, Entry deletion added
 # AHanson, 2020-aug-08, code commented and cleaned up
+# AHanson, 2020-aug-08, added print of stored entries after addding an entry
+
 
 #TO-DO
 #1)change the display menu so it prints before or after other information
@@ -62,6 +64,10 @@ while True:
         lstRow = {'ID':strID,'title':strTitle,'artist':strArtist}
         #chose to keep name lstRow for dictionary to avoid multiple replacements
         lstTbl.append(lstRow)
+        if lstTbl != []: #check table is not empty
+            print('ID, CD Title, Artist') #header for display
+            for row in lstTbl: #print the values of each dictionary seperated by a comma and space
+                print(*row.values(), sep = ', ')
     elif strChoice == 'i':
         # 3. Display the current data to the user each time the user wants to display the data
         if lstTbl != []: #check table is not empty
