@@ -19,6 +19,7 @@
 #2)find a use for exception handling
 #3)check for valid entries
 #4)allow deleting entries from the file
+#5)dont allow duplicate entries
 
 #------------------------------------------#
 
@@ -54,6 +55,7 @@ while True:
         # 5. Exit the program if the user chooses so
         break
     if strChoice == 'l':
+        print('ID, CD Title, Artist') #header for display
         with open(strFileName, 'r') as objFile:
             print(objFile.read()) #prints entire file
         pass
@@ -77,6 +79,7 @@ while True:
             print('ID, CD Title, Artist') #header for display
             for row in lstTbl: #print the values of each dictionary seperated by a comma and space
                 print(*row.values(), sep = ', ')
+            print()
         else: #just in case
             print('No CD entries!')
     elif strChoice == 'd':
@@ -85,14 +88,11 @@ while True:
             for row in lstTbl: #display options to be deleted
                 print(*row.values(), sep = ', ')
             strChoice2 = input('enter the id number of the entry to be deleted :')
-            if str(row['ID']) == strChoice2: #allows choosing by id number
-                index = 0
-                print(row['ID'],' ',row['title'],' ',row['artist'],' deleted!')
-                #print is before deletion because refernced variables will not exist after deletion
-                del(lstTbl[index]) #index will equal the index of the list entry currently accessed
-                index += 1
-            else:#just incase
-                print("invalid entry")
+            for row in lstTbl:
+                if str(row['ID']) == strChoice2: #allows choosing by id number
+                    gone = lstTbl.pop(row) #pop returns the removed value allowing it to be printed after removal
+                    print(gone['ID'],' ',gone['title'],' ',gone['artist'],' deleted!')
+                    print()
         else:#just incase
             print('No CD entries!')
     elif strChoice == 's':
@@ -100,10 +100,11 @@ while True:
         with open(strFileName, 'a') as objFile:
             for row in lstTbl:
                 strRow = ''
-                for item in row:
+                for item in row.values():
                     strRow += str(item) + ','
-                strRow = strRow[:-1] + '\n'#i'm not sure what this does but it works i guess
+                strRow = strRow[:-1] + '\n'
                 objFile.write(strRow)
+        print('Entries saved!')
         lstTbl = []  # list of data row
         #empties table in memory after written to file to prevent double entries
     else:
